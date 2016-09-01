@@ -704,12 +704,9 @@ const Select = React.createClass({
 		// 	return this.selectValue(this.state.inputValue);
 		// }
 
-		console.log('TESTINGSAKLJSLD');
 		if (this._focusedOption) {
-			console.log('in the focusedOptiong');
 			return this.selectValue(this._focusedOption);
 		} else {
-			console.log('NOT IN THE FOCUS... TRYING TO SUBMIT OTHER');
 			this.selectValue({value: 'Other'});
 		}
 	},
