@@ -703,8 +703,13 @@ const Select = React.createClass({
 		// if (this.props.allowCreate && !this.state.focusedOption) {
 		// 	return this.selectValue(this.state.inputValue);
 		// }
+
+		console.log('TESTINGSAKLJSLD');
 		if (this._focusedOption) {
+			console.log('in the focusedOptiong');
 			return this.selectValue(this._focusedOption);
+		} else {
+			console.log('NOT IN THE FOCUS');
 		}
 	},
 
