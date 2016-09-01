@@ -349,10 +349,10 @@ var _reactInputAutosize2 = _interopRequireDefault(_reactInputAutosize);
 var _classnames = (typeof window !== "undefined" ? window['classNames'] : typeof global !== "undefined" ? global['classNames'] : null);
 
 var _classnames2 = _interopRequireDefault(_classnames);
-
-var _blacklist = require('blacklist');
-
-var _blacklist2 = _interopRequireDefault(_blacklist);
+//
+// var _blacklist = require('blacklist');
+//
+// var _blacklist2 = _interopRequireDefault(_blacklist);
 
 var _utilsStripDiacritics = require('./utils/stripDiacritics');
 
