@@ -709,7 +709,8 @@ const Select = React.createClass({
 			console.log('in the focusedOptiong');
 			return this.selectValue(this._focusedOption);
 		} else {
-			console.log('NOT IN THE FOCUS');
+			console.log('NOT IN THE FOCUS... TRYING TO SUBMIT OTHER');
+			this.selectValue({value: 'Other'});
 		}
 	},
 
