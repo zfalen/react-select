@@ -1075,13 +1075,18 @@ var Select = _react2['default'].createClass({
 	},
 
 	selectFocusedOption: function selectFocusedOption() {
-		// if (this.props.allowCreate && !this.state.focusedOption) {
-		// 	return this.selectValue(this.state.inputValue);
-		// }
-		if (this._focusedOption) {
-			return this.selectValue(this._focusedOption);
-		}
-	},
+  		// if (this.props.allowCreate && !this.state.focusedOption) {
+  		// 	return this.selectValue(this.state.inputValue);
+  		// }
+
+  		console.log('TESTINGSAKLJSLD');
+  		if (this._focusedOption) {
+  			console.log('in the focusedOptiong');
+  			return this.selectValue(this._focusedOption);
+  		} else {
+  			console.log('NOT IN THE FOCUS');
+  		}
+  	},
 
 	renderLoading: function renderLoading() {
 		if (!this.props.isLoading) return;
